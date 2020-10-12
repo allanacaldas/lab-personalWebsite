@@ -55,11 +55,9 @@ img {
 /* ---- Layout Containers ---- */
 
 .row{
-	display:flex;
+    display:flex;
     justify-content: space-between;   /*Conversar sobre essa propriedade com Thai*/
-	align-items: flex-start;
-	/*width:100%;
-	max-width: 1800px; /*Controlar a largura do site em telas grandes */
+    align-items: flex-start;
 }
 .primary {
     display: flex;    
@@ -94,7 +92,6 @@ img {
 
 .secondary > p{
 	text-align: justify;
-	line-height: 1.875rem;
 	font-style: normal;
 	font-weight: normal;
 	font-size:   1rem;
